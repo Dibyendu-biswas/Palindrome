@@ -13,7 +13,7 @@ function pal() {
             c += "you enter a palindrome : " + t
         } else {
             c = ""
-            c += "you enter a wrong : " + t
+            c += "It is not a palindrome: " + t
         }
         value.innerText = c
     })
